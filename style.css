@@ -1,0 +1,350 @@
+img.brand-logo{
+	padding-top: 20px;
+	padding-left: 20px;	
+}
+
+nav, nav ul a{
+	background-color: #f7f7f7;
+	color: #46565a;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, p, h5{
+	font-family: 'Crimson Text', serif;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 18px;
+	font-style: italic;
+	color: #6b6b6b;
+}
+
+h6, h2 a{
+	font-family: 'Raleway', sans-serif;
+	font-style: initial;
+	font-size: 16px;
+}
+
+h6{
+	color: #6b6b6b;
+}
+
+h2 a{
+	padding-right: 10px;
+	margin-right: 10px;
+	border-style: solid;
+	border-right-color: lightgrey;
+	border-right-width: 1px;
+}
+
+h3, h4{
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+}
+
+h3{
+	font-size: 16px;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-color: darkgrey;
+}
+
+h4{
+	font-size: 12px;
+	color: grey;
+}
+
+p{
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #3f3f3f;
+}
+
+a:link, a:visited, a:active, a{
+	text-decoration: none;
+	color: #46565a;
+}
+
+a:hover{
+	color: lightgrey;
+}
+
+ nav ul a:hover{
+ 	color: white;
+ }
+
+ h5{
+ 	color: #46565a;
+ 	font-size: 40px;
+ 	font-weight: 600;
+	font-style: italic;
+ }
+
+ .scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.front{
+	width: 24000px;
+	top: 70px;
+	z-index: 2000;
+}
+
+.box{
+	width: 750px;
+	background-color: rgba(255, 255, 255);
+	top: 0px;
+	padding: 10px 30px;
+	position: absolute;
+}
+
+.insert2{
+	width: 900px;
+	background-color: rgba(255, 255, 255);
+	top: 0px;
+	padding: 10px 30px;
+	position: absolute;
+	left: 8000px;
+	top: 220px;
+}
+
+.quote{
+	width: 750px;
+	background-color: rgba(255, 255, 255, 0.6);
+	top: 0px;
+	padding: 10px 30px;
+	position: absolute;
+}
+
+.one{
+	left: 2000px;
+	top: 70px;
+}
+
+.two{
+	left: 3100px;
+	top: 90px;
+}
+
+.three{
+	left: 4400px;
+	top: 50px;
+}
+
+.insert1{
+	left: 5200px;
+	top: 300px;
+}
+
+.four{
+	left: 6500px;
+	top: 20px;
+}
+
+.five{
+	left: 8000px;
+}
+
+.six{
+	left: 9000px;
+	top: 270px;
+}
+
+.seven{
+	left: 10500px;
+}
+
+.insert3{
+	left: 11250px;
+}
+
+.eight{
+	left: 12700px;
+}
+
+.nine{
+	left: 14300px;
+	top: 10px;
+}
+
+.ten{
+	left: 15050px;
+	top: 10px;
+}
+
+.insert4{
+	left: 15800px;
+	top: 250px;
+}
+
+.eleven{
+	left: 17150px;
+	top: 50px;
+}
+
+.twelve{
+	left: 18300px;
+	top: 50px;
+}
+
+.thirteen{
+	left: 19100px;
+}
+
+.fourteen{
+	left: 19900px;
+}
+
+.fifteen{
+	left: 21150px;
+}
+
+.sixteen{
+	left: 22200px;
+	top: 230px;
+}
+
+.seventeen{
+	left: 19860px;
+	top: 400px;
+}
+
+.intro{
+	width: 750px;
+	top: 80px;
+	padding: 10px 30px;
+	position: absolute;
+	z-index: 1000;
+	left: 250px;
+}
+
+.middle{
+	width: 18000px;
+	top: 100px;
+	z-index: 200;
+}
+
+.back{
+	width: 21600px;
+	top: 100px;
+	z-index: 300;
+}
+
+.img, .quote{
+	padding: 20px 30px;
+	position: absolute;
+}
+
+.img1{
+	left: 2500px;
+}
+
+.img2{
+	left: 3500px;
+	top: -20px;
+}
+
+.cookbook{
+	height: 500px;
+}
+
+.img3{
+left: 6500px;
+}
+
+.img4{
+left: 10800px;
+top: -30px;
+}
+
+img.bday, img.patrons, .portrait{
+	max-height: 550px;
+}
+
+.img5{
+left: 12200px;
+top: -20px;
+}
+
+.img6{
+left: 14900px;
+top: -40px;
+}
+
+.img7{
+left: 16000px;
+}
+
+.img7-2{
+left: 16100px;
+top: 250px;
+}
+
+.scene1{
+	position: absolute;
+	left: -900px;
+}
+
+.navbar-fixed{
+	z-index: 2000;
+}
+
+.q1{
+	left: 6500px;
+}
+
+.q2{
+	left: 7200px;
+	top: 200px;
+}
+
+.q3{
+	left: 8300px;
+	top: 200px;
+}
+
+.q4{
+	left: 9420px;
+	top: 350px;
+}
+
+.q5{
+	left: 11050px;
+	top: 300px;
+}
+
+.q6{
+	left: 11650px;
+	top: -50px;
+}
+
+.q7{
+	left: 15600px;
+	top: 280px;
+}
+
+.last{
+	left: 20700px;
+	top: -20px;
+}
+
+.painting{
+	max-width: 690px;
+}
+
+i{
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+}
