@@ -141,11 +141,3 @@
         };
     };
 }(jQuery));
-
-(function isMobile() {
-return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-if (!isMobile()) {
-    $( "body" ).replaceWith( "<body><h2>555</h2></body>" );
-});
