@@ -1,11 +1,11 @@
 /**
-*	jQuery Plugin for simple vertical scrolling - horizontal movement parallax effect
-*	I wrote this plugin for a project we have done.
+*   jQuery Plugin for simple vertical scrolling - horizontal movement parallax effect
+*   I wrote this plugin for a project we have done.
 *
-*	License:
-*	The MIT License (MIT)
+*   License:
+*   The MIT License (MIT)
 *
-*	@version 0.8.3
+*   @version 0.8.3
 *
 *   Copyright (c) 2013 pixxelfactory
 *   
@@ -32,8 +32,8 @@
 
     $.jInvertScroll = function(sel, options) {
         var defaults = {
-            width: 'auto',		    // The horizontal container width
-            height: 'auto',		    // How far the user can scroll down (shorter distance = faster scrolling)
+            width: 'auto',          // The horizontal container width
+            height: 'auto',         // How far the user can scroll down (shorter distance = faster scrolling)
             onScroll: function(percent) {  // Callback fired when the user scrolls down, the percentage of how far the user has scrolled down gets passed as parameter (format: 0.xxxx - 1.0000)
                 // do whatever you like
             }
@@ -141,3 +141,11 @@
         };
     };
 }(jQuery));
+
+(function isMobile() {
+return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
+    $( "body" ).replaceWith( "<body><h2>555</h2></body>" );
+});
