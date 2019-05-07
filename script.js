@@ -1,9 +1,9 @@
 $( document ).ready(function() {
-    function isMobile() {
+	function isMobile() {
 return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 if (!isMobile()) {
-    $( ".notmobile" ).remove();
+    $( "body" ).replaceWith( "<h2>555</h2>" );
 }
 };
