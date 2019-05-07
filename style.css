@@ -59,6 +59,11 @@ h4{
 	color: grey;
 }
 
+h2, h4{
+		margin-top: 0px;
+		margin-bottom: 0px;
+}
+
 p{
 	font-size: 20px;
 	margin-bottom: 20px;
@@ -203,21 +208,25 @@ body{
 	left: 19100px;
 }
 
-.fourteen{
+.insert5{
 	left: 19900px;
 }
 
-.fifteen{
+.fourteen{
 	left: 21150px;
 }
 
+.fifteen{
+	left: 22150px;
+}
+
 .sixteen{
-	left: 22200px;
+	left: 23200px;
 	top: 230px;
 }
 
 .seventeen{
-	left: 19860px;
+	left: 20800px;
 	top: 400px;
 }
 
@@ -312,7 +321,7 @@ top: 250px;
 
 .q3{
 	left: 8300px;
-	top: 200px;
+	top: 300px;
 }
 
 .q4{
@@ -321,8 +330,8 @@ top: 250px;
 }
 
 .q5{
-	left: 11050px;
-	top: 300px;
+	left: 10650px;
+	top: 330px;
 }
 
 .q6{
@@ -331,12 +340,12 @@ top: 250px;
 }
 
 .q7{
-	left: 15600px;
+	left: 16400px;
 	top: 280px;
 }
 
 .last{
-	left: 20700px;
+	left: 20600px;
 	top: -20px;
 }
 
@@ -347,4 +356,81 @@ top: 250px;
 i{
 	font-family: 'Crimson Text', serif;
 	font-style: italic;
+}
+
+@media only screen and (max-width: 700px) {
+  .box, .insert2 {
+    max-width: 460px;
+    top: 0px;
+  }
+
+  .quote {
+  	max-width: 330px;
+  }
+
+  p {
+  	font-size: 17px;
+  }
+
+  .intro {
+  	max-width: 470px;
+  	left: 0px;
+  }
+
+  .painting{
+  	max-width: 410px;
+  }
+
+  .intro{
+  	left: -15px;
+  }
+
+  .insert2 {
+  	top: 20px;
+  	left: 8500px;
+  }
+
+.q1{
+	left: 6000px;
+	top: 280px;
+}
+
+.q3{
+	left: 8170px;
+	top: 100px;
+	width: 300px;
+}
+
+.q4{
+	left: 9800px;
+	top: 100px;
+}
+
+.q5{
+	left: 11000px;
+	top: 100px;
+}
+
+.q6{
+	left: 11550px;
+}
+
+.q7{
+	left: 16200px;
+	top: 100px;
+}
+
+.seventeen{
+	left: 20830px;
+	top: 200px;
+}
+
+h5{
+	font-size: 30px;
+}
+
+h6{
+	font-size: 14px;
+}
+
 }
